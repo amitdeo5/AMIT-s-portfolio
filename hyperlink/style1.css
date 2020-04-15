@@ -1,0 +1,370 @@
+.A {
+  background-color : black;
+  padding : 10px ;
+  border : 3px solid black;
+  width : 50%;
+  hight : 10%;
+  text-color:white;
+  font-size: 150%;
+  float :left;
+  margin-top:-17px;
+  }
+.h2 {
+   font-size: "500%";
+
+}  
+
+.button {
+background-color: black;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+border-radius: 15px;   
+border: 2px solid white;        
+cursor: pointer;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;    
+}
+.button:hover {
+background-color: skyblue; 
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
+color: white;
+text-decoration:none;
+}
+
+body{
+  background: #333 url('https://image.ibb.co/n5A2HU/showcase.jpg') no-repeat center center / cover;
+}
+
+.works{
+background: rgb(255, 255, 255);
+
+}
+
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+
+.topleft{
+  font-size: 100px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+
+.button {
+  padding: 10px 17px;
+  font-size: 10px;
+  margin: 2px 1px;
+  align-items: center;
+  align-content: center;
+}
+
+.A{
+  background-color : black;
+  padding : 10px ;
+  border : 3px solid black;
+  width : 100%;
+  hight : 10%;
+  text-color:white;
+  font-size: 83%;
+  float :left;
+  margin-top:-17px;
+  }
+
+ .topleft{
+  
+   font-size: 50px;
+ } 
+
+ .dimag{
+        height: 40%;
+ }
+
+ .work{
+   height: 10%;
+  margin-bottom: -10px;
+}
+
+.buttonab{
+  align-content: center;
+  text-align: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+.responsive {
+width: 100%;
+}
+
+
+
+}
+
+
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#banner {
+background-color: rgb(255, 255, 255);
+width: 100%;
+height: 400px;
+} 
+
+
+
+
+
+
+/*slide................................... */
+
+.gallery {
+background:#fff;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color:rgb(252, 252, 252);
+margin: 0;
+margin-bottom: 0px;
+padding: -60;
+}
+
+.swiper-slide .details{
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  
+  }
+  
+  .swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  margin-bottom: 0px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 520px;
+    height: 460px;
+    background: #262626;
+    margin-bottom: 0px;
+    }
+
+
+    .last h2 {
+      font-size: 25px;
+    text-align: center;
+    }
+
+
+
+    @media (max-width: 700px) {
+
+      .last .h2 {
+        font-size: 25px;
+      }
+       
+
+
+      .gallery {
+        background:#fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 5px;
+        color:rgb(252, 252, 252);
+        margin: 0;
+        margin-bottom: 0px;
+        padding: -60;
+        }
+        
+
+           .size{
+                 font-size: 20px;
+             }
+
+        .swiper-slide .details{
+          height: 90px;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          line-height: 20px;
+          font-size: 12px;
+          
+          }
+          
+          .swiper-container {
+          width: 100%;
+          padding-top: 20px;
+          padding-bottom: -10px;
+          margin-bottom: 0px;
+          }
+        
+          .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            background: #262626;
+            margin-bottom: 0px;
+            }
+
+            .swiper-slide details .h3{
+              
+              font-size: 2px;
+            }
+
+
+          }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+.middle{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+text-align: center;
+}
+
+.btn{
+display: inline-block;
+width: 80px;
+height: 80px;
+background: #f1f1f1;
+margin: 10px;
+border-radius: 30%;
+box-shadow: 0 5px 15px -5px #00000070;
+color: #3498db;
+overflow: hidden;
+position: relative;
+}
+
+.btn i{
+line-height: 66px;
+font-size:26px;
+transition: 0.2s linear;
+} 
+
+.btn:hover i{
+   transform: scale(1.3);
+   color: #f1f1f1;
+}
+
+.btn::before{
+content: "";
+position: absolute;
+width: 120%;
+height: 120%;
+background: #3498db;
+transform: rotate(45deg);
+left: -110%;
+top: 90%;
+}
+
+.btn:hover::before{
+animation: aaa 0.7s 1;
+top: -10%;
+left: -10%;
+}
+
+@keyframes aaa {
+0%{
+  left: -110%;
+  top: 90%;
+}
+50%{
+  left: 10%;
+  top: -30%;
+}
+100%{
+  top: -10%;
+  left: -10%;
+}
+}
+
+
+
+}
+
+
+@media (max-width: 700px) {
+
+  .btn{
+    width: 45px;
+    height: 50px;
+  }
+
+}
